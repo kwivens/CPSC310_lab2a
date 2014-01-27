@@ -9,6 +9,7 @@ public class StockPrice implements Serializable {
 	  private double price;
 	  private double change;
 	  private String userAtest;
+	  private String userBtest;
 
 	  public StockPrice() {
 	  }
@@ -18,6 +19,7 @@ public class StockPrice implements Serializable {
 	    this.price = price;
 	    this.change = change;
 	    this.userAtest = "TESTING UPDATE";
+	    this.userBtest = "NOW WE DANCE";
 	  }
 
 	  public String getSymbol() {
