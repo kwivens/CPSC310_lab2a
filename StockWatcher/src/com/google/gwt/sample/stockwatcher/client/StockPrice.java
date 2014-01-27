@@ -21,7 +21,7 @@ public class StockPrice implements Serializable {
 	    this.change = change;
 	    this.userAtest = "TESTING UPDATE";
 	    this.userBtest = "NOW WE DANCE";
-	    this.finaltest = "USER A UPDATE";
+	    this.finaltest = "USER A TESTING";
 	  }
 
 	  public String getSymbol() {
