@@ -10,7 +10,7 @@ public class StockPrice implements Serializable {
 	  private double change;
 	  private String userAtest;
 	  private String userBtest;
-	  private String finaltest;
+	  private String finaltest;	  
 
 	  public StockPrice() {
 	  }
@@ -21,7 +21,7 @@ public class StockPrice implements Serializable {
 	    this.change = change;
 	    this.userAtest = "TESTING UPDATE";
 	    this.userBtest = "NOW WE DANCE";
-	    this.finaltest = "USER A UPDATE";
+	    this.finaltest = "FINAL";
 	  }
 
 	  public String getSymbol() {
